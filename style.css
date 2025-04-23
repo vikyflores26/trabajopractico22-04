@@ -35,3 +35,19 @@ button:hover{
     transition: all 0.3s;
 
 }
+
+body.dark {
+    background-color: #1f2937; 
+    color: beige;
+    transition: all 0.3s;
+}
+body.dark.tarjeta{
+background-color: #374151;
+    transition: all 0.3s;
+    
+}
+body.dark h1,
+body.dark.tarjeta p{
+    color: beige;
+    transition: all 0.3s;
+}

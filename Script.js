@@ -1,6 +1,7 @@
-let boton = document. queryselector('#modoOscuro)
- let body = document. queryselector( 'body') 
+let boton = document. querySelector('#modoOscuro')
+ let body = document. querySelector('body') 
 
-boton.onclik = funcion (){
-body . classlist.toggle ('dark')
-}
+ boton.onclick = function () {
+    body.classList.toggle('dark')
+  }
+  
